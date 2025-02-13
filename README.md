@@ -106,7 +106,7 @@ Write a C++ program that represents this chain of contingency, tracing it back t
 5.  Create a class `PhysicalLaws` with a member variable of type `NecessaryBeing`.
 6.  Create a class `NecessaryBeing` with a function `void exist()`. This class represents the necessary being, and its `exist()` function signifies its inherent existence.
 
-Each class (except `NecessaryBeing`) should have a function (e.g., `trace()`) that prints a message explaining its contingency and then calls the `trace()` function of the member variable it depends on. The `Decision` class's `trace()` function should start the chain. The `PhysicalLaws` class's `trace()` function should call the `trace()` function of the `NecessaryBeing` class.
+Each class should have a function (e.g., `trace()`) that prints a message explaining its contingency and then calls the `trace()` function of the member variable it depends on. The `Decision` class's `trace()` function should start the chain. The `PhysicalLaws` class's `trace()` function should call the `trace()` function of the `NecessaryBeing` class.
 
 
 Example Usage:
